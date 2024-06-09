@@ -22,7 +22,7 @@ function makeGrid(size) {
     for (let i = 0; i < cellNum; i++) {
         let cell = document.createElement("div");
         cell.addEventListener("mouseover", cellColor)
-        container.insertAdjacentElement("beforeend", cell);
+        container.appendChild(cell);
     }
 }
 
